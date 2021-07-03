@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta htt-equiv="X-UA-Compatible"content="ie=edge">      
+    <link rel="stylesheet" href="style.css"/>
+    <title>Jonathan Ngoy Bitingingwa</title>
+    <link rel="stylesheet" href="style.css"/>
+
+<!---bootstrap css file---->
+<link rel="styleshee" href="./css/bootstrap.min.css">
+
+<!----- custom css file--->
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <section class="header">
+    <nav>
+        <a href="index.html"><img src="image/jo.jpg"></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+             <li><a href="">BIOGRAPHIE</a></li>
+              <li><a href="">EVOLUTION</a></li>
+              <li><a href="">AUTRES</a></li>
+               <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+        <h1> BONJOUR ET BIENVENUE SUR MON SITE!</h1>
+        <p> Dans ce site nous vous parlerons sur <em>Jonathan Ngoy Bitingingwa</em> un Jeûne de la République Démocratique du Congo qui se lance dans le domaine technologique</p>
+        <a rhef="" class="hero-btn">Veillez continuer pour connaître un peu plus...</a>
+
+    </div>
+
+    </section>
+
+<!----- BIOGRAPHIE ----->
+<section class="BIOGRAPHIE">
+    <h1>BIOGRAPHIE</h1>
+    <p><em>Jonathan Ngoy Bitingingwa</em> Est un congolais, Célibataire né et habitant en République Démocratique du Congo dans la province du Sud-Kivu précisément dans la ville de Bukavu...<br>
+        IL est titulaire d'un diplôme d'Edition 2020 en Electronique industriel et devient ingénieur A3. Etant passionné par la high tec (haute technologie), il décide de parcourir les études universitaires <br>
+        Dans la faculté de technologie de l'information appliquée pour pouvoir réaliser ses rêves.</p>
+       
+        <div class="row">
+            <div class="EVOLUTION-col">
+                <h2>Compétences et Expérences</h2>
+                <p>Ayant fait une orientation technique au cours son parcours humanitaire,L'ingénieur a conduit pendant 2mois en juillet jusqu'en aout 2019 l'équipe technique de la<a href="https://RTVGL.com"> Radio Télé Vision Grands Lacs</a> à Bukavu. Il possède aussi des connaissance dans le domaine de la programmation informatique arduino Et est aussi titulaire d'un certificat de la formation anglaise.</p>
+            </div>
+                <div class="EVOLUTION-col">
+                    <h2>Autre choses à savoir</h2>
+                    <p>Au courant de la fin de l'année 2020, Jonathanest intéressé par une association à but non lucratif dénomée <em>Children's Hope</em> Qui oeuvre sur le bien etre des enfants démunis et particulièerement les orphélins et décide d'y integrer dans le cadre de bénévolat; un geste qui étonne la plus part Des gens qui le connaissait mais malgré cela, il y tient de tout Coeur</p>
+            </div>
+            </div>
+
+</section>
+
+<!----- photos--->
+<section class="photos">
+    <h1>Quelques Photos Recentes</h1>
+    <p>Ces photos datent de 2020-2021</p>
+
+    <div class="row">
+        <div class="photos-col">
+            <img src="image/labo.jpg">
+            <div class="layer">
+                <h3>LABORATIORE INSTITUT KASALI</h3>
+            </div>
+        </div>
+        <div class="photos-col">
+            <img src="image/IMG_2639.JPG">
+            <div class="layer">
+                <h3>A LA MAISON</h3>
+            </div>
+        </div>
+        <div class="photos-col">
+            <img src="image/IMG_8024.jpg">
+            <div class="layer">
+                <h3>SORTIE</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <!------AUTRES------->
+
+    <section class="AUTRES"> 
+        <h1>VISION</h1>
+        <P> Entant qu’un ingénieur, déterminé, il voudrait faire des progrès en électronique numérique en d’autre terme aller plus en profondeur de l’intelligence artificielle pour pouvoir aider son pays à ce qui concerne l’avancement de la technologie qui est l’un des choses qui est encore bas en République Démocratique du Congo.</P>
+        <div class="row">
+            <div class="AUTRES-col">
+                <img src="image/IMG_0533.JPG">
+                <div>
+                    <p>Si vous pouvez le penser, vous pouvez le faire</p>
+                    <h3><strong> Jonathan Bitingingwa</strong></h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+<!------Appelez pour Action -->
+
+<section class="cta">
+    <h1>Pour Plus D'informations, Veuillez Me Contacter</h1>
+    <a href="" class="hero-btn">Me Contacter</a>
+
+</section>
+
+<!------footer  -->
+
+    <section class="footer">
+        <h4>Mes Cordonnées</h4>
+        <p>Mail: jonathanngoy234@gmail.com</p>
+        <p>WhatsApp: +243 973112301</p>
+        <p>Facebook: Jonathan Jolva</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsApp"></i>
+        </div>
+
+    </section>
+
+
+
+
+    <script>
+    var navLinks= document.getElementById("navLinks");
+   function showMenu(){
+       navLinks.style.right="0";
+       }
+    function hideMenu(){
+        navLinks.style.right="200px"
+    }
+
+    </script>
+
+<!-------bootstrap js file---->
+<script src="./js/bootstrap.min.js"></script>
+
+</body>
+</html>
